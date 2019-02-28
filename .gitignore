@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+.idea/
+models/
+data/amazon_review/gleichverteil.csv
+data/embedding/glove.twitter.27B.50d.txt
+data/prime_video/Amazon.json
+tensorboard/

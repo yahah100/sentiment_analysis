@@ -1,0 +1,27 @@
+##### README #####
+
+Der Testhelper enthält alle Funktionen, die zum testen benötigt werden.
+Diese werden in den einzelnen tests geladen
+
+- Tests:
+    Kapitel 4.2.1 -> ONLY_EMBED_test.py
+    Kapitel 4.2.2 -> CNN_test.py
+    Kapitel 4.2.3 -> WITHOUT_EMBED_test.py
+    Kapitel 4.2.4 -> LSTM_test.py
+    Kapitel 4.2.5 -> CNN_last_layer_test.py + LSTM_last_layer_test.py
+    Kapitel 4.3 -> HyperparameterTuningTest.py
+
+- In data/ sind die Datasets oder Links zu den Datsaets vorhanden
+- In data/embedding/ muss erst noch das Embedding herunter geladen werden
+
+
+kurz zur Struktur:
+
+- der Testhelper lädt das Embedding und die Datasets.
+- das classes/TFModel.py lädt die Tensorflow Komponenten
+- das classes/structure.py enthält die einzelnen Netze
+- die classes/data_classes/... laden die Datasets
+- der Cleaner wird von den Dataclasses aufgerufen
+
+Da dieser Inhalt auf einer CD abgegeben werden muss, können leider keine Tensoboard-Dateien oder Model-Dateien
+mit abgegeben werden.
