@@ -264,7 +264,7 @@ class TFModel:
                     except tf.errors.OutOfRangeError:
                         break
                 print()
-                print(epoch, "\tval accuracy: ", np.mean(test_acc_list), "\t f_! score: ",
+                print(epoch, "\tval accuracy: ", np.mean(test_acc_list), "\t f_1 score: ",
                       self.get_mean_of_score_list(f1_list))
                 print()
 
@@ -347,7 +347,7 @@ class TFModel:
                     except tf.errors.OutOfRangeError:
                         break
                 print()
-                print(epoch, "\tval accuracy: ", np.mean(test_acc_list), "\t f_! score: ",
+                print(epoch, "\tval accuracy: ", np.mean(test_acc_list), "\t f_1 score: ",
                       self.get_mean_of_score_list(f1_list))
                 print()
 
@@ -401,7 +401,7 @@ class TFModel:
                 except tf.errors.OutOfRangeError:
                     break
             print()
-            print("val accuracy: ", np.mean(test_acc_list), "\t f_! score: ",
+            print("val accuracy: ", np.mean(test_acc_list), "\t f_1 score: ",
                   self.get_mean_of_score_list(f1_list))
             print()
 
