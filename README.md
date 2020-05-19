@@ -1,4 +1,4 @@
-# Sentiment Analyse with Deeplearning using Tensorflow
+# Sentiment Analysis with Deeplearning using Tensorflow
 
 
 
